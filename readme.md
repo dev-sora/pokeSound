@@ -17,6 +17,7 @@ This program is designed to send low-dimensional images from a device(which have
 
 ## Description
 
+### What is done?
 - poke.py - This is to transrate images to sounds, mainly using OpenCV. The resolution of images is limited in 60x60.  
 - analysis.py - This is to record sounds for certain seconds, analyse them and back-transrate sounds into images.
 
@@ -37,7 +38,13 @@ To install these modules, check documents of each modules.
 
 1. Run `analysis.py` first.
 2. The receiving device entering stand-by state, run with your own choice.  
-`python poke.py <pokémonName>`
+`$ python poke.py <pokémonName>`
+
+### Receive
+
+1. Run the code.  
+`$ python analysis.py`
+
 
 ## Author
 
