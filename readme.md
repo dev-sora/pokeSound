@@ -35,7 +35,8 @@ To install these modules, check documents of each modules.
 
 ### Send
 
-Run `analysis.py` first.  The receiving device entering stand-by state, run with your own choice.  
+1. Run `analysis.py` first.
+2. The receiving device entering stand-by state, run with your own choice.  
 `python poke.py <pokémonName>`
 
 ## Author
