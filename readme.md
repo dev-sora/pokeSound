@@ -1,13 +1,3 @@
-指定できるポケモンは以下の通り。()内は、指定するときの個体名です。
-フシギダネ
-リザードン
-ゼニガメ
-コイキング
-ピカチュウ
-ニャース
-トランセル
-トレーナー
-
 Poke Sound
 ====
 
@@ -18,11 +8,15 @@ This program is designed to send low-dimensional images from a device(which have
 ## Description
 
 ### What is done?
-- poke.py - This is to transrate images to sounds, mainly using OpenCV. The resolution of images is limited in 60x60.  
-- analysis.py - This is to record sounds for certain seconds, analyse them and back-transrate sounds into images.
+- `poke.py` - This program transrates images to sounds, mainly using OpenCV. The resolution of input images is limited in 60x60.
+- `analysis.py` - This program records input sounds for certain seconds, analyses them and back-transrates sounds into images.
 
 ## Requirement
 
+### Hardware
+Two devices(any kind will be fine) are needed.  One is for sending, the other is for receiving.
+
+### Software
 The following modules are required.
 
 - OpenCV
@@ -39,6 +33,18 @@ To install these modules, check documents of each modules.
 1. Run `analysis.py` first.
 2. The receiving device entering stand-by state, run with your own choice.  
 `$ python poke.py <pokémonName>`
+
+#### Available Pokémon
+The following arguments can be used as Pokémon name.
+
+- hushigidane
+- lizardon
+- zenigame
+- koiking
+- pikachu
+- nyasu
+- toranseru
+- trainer
 
 ### Receive
 
