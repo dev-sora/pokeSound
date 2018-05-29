@@ -24,7 +24,7 @@ The following modules are required.
 - Scipy
 - Pygame
 
-To install these modules, check documents of each modules.
+To install them, check documents of each modules.
 
 ## Usage
 
