@@ -3,7 +3,7 @@ Poke Sound
 
 ## Overview
 
-This program is designed to send low-dimensional images from a device(which have microphone and speaker) to another with sound alone.
+This program is designed to send low-resolution images from a device(which have microphone and speaker) to another with sound alone.
 
 ## Description
 
